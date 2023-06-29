@@ -1,6 +1,10 @@
-import java.util.*;
+// 23-06-29 자바 구현
+package implementation;
 
-class Solution {
+import java.util.LinkedList;
+import java.util.Queue;
+
+class Imple2 {
     public int solution(int bridge_length, int weight, int[] truck_weights) {
         // 변수 선언
         Queue<int []> queue = new LinkedList<>();
