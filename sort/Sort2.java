@@ -1,6 +1,10 @@
-import java.util.*;
+// 23-06-30 자바 정렬
+package sort;
 
-class Solution {
+import java.util.Arrays;
+import java.util.Comparator;
+
+class Sort2 {
     public String solution(int[] numbers) {
         String [] arr = new String[numbers.length];
 
