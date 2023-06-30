@@ -1,4 +1,7 @@
-class Solution {
+// 23-06-30 자바 구현
+package implementation;
+
+class Imple5 {
     public int[] solution(int brown, int yellow) {
         int sum = brown + yellow;
         int[] answer = new int[2];
