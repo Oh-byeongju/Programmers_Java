@@ -1,6 +1,9 @@
-import java.util.*;
+// 23-07-01 자바 DFS
+package graph_traversal;
 
-class Solution {
+import java.util.ArrayList;
+
+class DFS1 {
     static ArrayList<ArrayList<Integer>> graph;
     static boolean [] visit;
     static int cnt, a, b;
