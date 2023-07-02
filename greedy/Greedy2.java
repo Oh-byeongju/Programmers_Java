@@ -1,4 +1,7 @@
-class Solution {
+// 23-07-02 자바 그리디
+package greedy;
+
+class Greedy2 {
     public int solution(String name) {
         int answer = 0;
         int index = 0;
