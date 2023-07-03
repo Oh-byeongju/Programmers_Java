@@ -1,6 +1,11 @@
-import java.util.*;
+// 23-07-03 자바 그리디
+package greedy;
 
-class Solution {
+import java.util.Arrays;
+import java.util.Deque;
+import java.util.LinkedList;
+
+class Greedy4 {
     public int solution(int[] people, int limit) {
         Deque<Integer> deque = new LinkedList<>();
         int answer = 0;
