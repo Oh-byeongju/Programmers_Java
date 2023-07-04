@@ -1,4 +1,7 @@
-class Solution {
+// 23-07-04 자바 구현
+package implementation;
+
+class Imple6 {
     public String solution(int[] numLog) {
         StringBuilder sb = new StringBuilder();
 
