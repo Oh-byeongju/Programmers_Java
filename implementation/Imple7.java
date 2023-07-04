@@ -1,4 +1,7 @@
-class Solution {
+// 23-07-05 자바 구현
+package implementation;
+
+class Imple7 {
     public int solution(int[] numbers) {
         // 0 ~ 9 까지 true, false 체크할 배열 선언
         boolean [] checks = new boolean[10];
