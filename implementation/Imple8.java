@@ -1,4 +1,7 @@
-class Solution {
+// 23-07-06 자바 구현
+package implementation;
+
+class Imple8 {
     public int solution(String[] babbling) {
         int answer = 0;
 
