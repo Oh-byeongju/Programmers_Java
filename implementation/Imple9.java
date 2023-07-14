@@ -1,11 +1,10 @@
-import java.util.*;
+// 23-07-14 자바 구현
+package implementation;
 
-class Solution {
-    public static void main(String [] args) {
-        Solution solution = new Solution();
-        System.out.println(solution.solution("1S*2T*3S"));
-    }
+import java.util.LinkedList;
+import java.util.Queue;
 
+class Imple9 {
     public int solution(String dartResult) {
         Queue<Integer> queue = new LinkedList<>();
         StringBuilder sb;
