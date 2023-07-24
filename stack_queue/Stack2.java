@@ -1,6 +1,9 @@
-import java.util.*;
+// 23-07-25 자바 스택
+package stack_queue;
 
-class Solution {
+import java.util.Stack;
+
+class Stack2 {
     public int solution(int[][] board, int[] moves) {
         Stack<Integer> stack = new Stack<>();
         int answer = 0;
