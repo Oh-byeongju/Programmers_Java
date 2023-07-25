@@ -1,6 +1,9 @@
-import java.util.*;
+// 23-07-25 자바 스택
+package stack_queue;
 
-class Solution {
+import java.util.Stack;
+
+class Stack3 {
     public int[] solution(int[] numbers) {
         // number index 정보를 담을 스택 생성
         Stack<Integer> stack = new Stack<>();
