@@ -1,4 +1,7 @@
-class Solution {
+// 23-07-26 자바 구현
+package implementation;
+
+class Imple11 {
     public String solution(String new_id) {
         // 1단계
         String answer = new_id.toLowerCase();
