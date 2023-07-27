@@ -1,6 +1,9 @@
-import java.util.*;
+// 23-07-28 자바 스택
+package stack_queue;
 
-class Solution {
+import java.util.Stack;
+
+class Stack4 {
     public int solution(int[] ingredient) {
         Stack<Integer> stack = new Stack<>();
         int answer = 0;
