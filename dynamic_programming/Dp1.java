@@ -1,6 +1,12 @@
-import java.util.*;
+// 23-07-29 자바 dp
+package dynamic_programming;
 
-class Solution {
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+class Dp1 {
     public int solution(int N, int number) {
         // hashSet 담을 리스트 선언
         List<Set<Integer>> list = new ArrayList<>();
