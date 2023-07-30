@@ -1,4 +1,7 @@
-class Solution {
+// 23-07-30 자바 구현
+package implementation;
+
+class Imple12 {
     public int solution(int n) {
         // 매개변수의 2진수 값을 추출 후 1의 개수를 구함
         String temp = Integer.toBinaryString(n);
